@@ -1,0 +1,189 @@
+@charset "utf-8";
+html{
+    font-size: 18px;
+}
+body{
+    margin: 0px;
+    height: 1500px;
+}
+header{
+    position: fixed;
+    height: 74px;
+    width: 100vw;
+    background-color: white;
+}
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.banner_content{
+    height: 100%;
+    display: flex;
+}
+.banner_title{
+    margin-right: auto;
+}
+.title_link{
+    text-decoration: none;
+}
+.title_link:visited{
+    color:black;
+}
+.title_link:hover{
+    color: blue;
+}
+.title_link:active{
+
+}
+.banner_menu{
+    margin-left:auto;
+    display: flex;
+}
+.menu_nav{
+    display:flex;
+}
+.point_none{
+    list-style: none;
+    margin: 0px;
+    display: flex;
+}
+.nav_button{
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    height: 100%;
+    border-bottom: double 5px white;
+}
+.nav_button:visited{
+}
+.nav_button:hover{
+    border-bottom: double 5px orange;
+}
+.nav_button:focus{
+    outline: 0px;
+}
+
+.subnav{
+    display: flex;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    width:100vw;
+    height: 400px;
+
+}
+#port:hover + .subnav{
+    display: flex;
+    visibility: visible;
+}
+
+.subnav:hover{
+    display: flex;
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    width:100vw;
+}
+
+.subnav_left{
+    display: flex;
+    margin-right: auto;
+    width: 30%;
+    background-color: #faf8f8;
+}
+
+.subnav_left:hover{
+}
+
+
+.subnav_main{
+    display: flex;
+    margin-left: auto;
+    width: 70%;
+    background-color: white;
+}
+
+
+.subnav_main:hover{
+}
+
+main{
+    padding-top: 74px;
+}
+
+.top_image{
+    width: 100vw;
+    height: 400px;
+    background-image:url("../images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artice_layout{
+    margin: 100px 0 120px 0;
+
+}
+
+.container{
+    padding: 0  50px;
+    display: flex;
+    background-color: #0099cc;
+}
+
+.sales_word{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin: auto 0;
+    margin-right: auto;
+    background-color: yellow;
+    width: 50%;
+}
+
+.branch_nav{
+    margin-left: auto;
+    background-color: red;
+    width: 50%;
+}
+
+.explanation{
+    font-size: 21px;
+    height: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ad{
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+}
+
+.branch_link{
+    height: 40%;
+    display:flex;
+}
+
+.point_no{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.link_button{
+    margin: 0 20px;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.decration_no{
+    display: block;
+    text-decoration:none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
